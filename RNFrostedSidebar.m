@@ -354,7 +354,7 @@ static RNFrostedSidebar *rn_frostedMenu;
                           delay:(initDelay + idx*0.1f)
          usingSpringWithDamping:10
           initialSpringVelocity:50
-                        options:UIViewAnimationOptionBeginFromCurrentState
+                        options:0
                      animations:^{
                          view.layer.transform = CATransform3DIdentity;
                          view.alpha = 1;
